@@ -1,0 +1,47 @@
+register.php
+
+first function kinda sus
+cookie doesnt seem protected
+user input
+not protected against code injection or anything of the sort
+plaintext password
+
+logout.php
+
+seems to be ok
+
+login.php
+
+same problems as in register.php
+
+index.php
+
+cookie not protected
+any file can be uploaded, even malicious ones
+
+header.php
+dunno, maybe $user caan be manipulated somehow to look like they logged in already
+
+footer.php
+well its just empty
+
+README
+most dangerous of all, useless
+
+deploy.sql
+everything is plaintext not encrypted, all priviliges for root user are listed in plaintext 
+
+css files
+they cant be hacked right?
+
+db.php
+more plaintext
+
+jwt.php
+weak encryption i guess?
+
+phpfix.php
+tf is that even
+
+user.php
+does addfile even add a file?

@@ -1,0 +1,1 @@
+gcc -g -O0 -mpreferred-stack-boundary=2 -m32 -fno-stack-protector -z execstack -D_FORTIFY_SOURCE=0 assingnment1.c -o assingnment.o
